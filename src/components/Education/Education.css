@@ -1,0 +1,79 @@
+.edu {
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  height: 90vh;
+  margin-top: 4rem;
+  /* scroll */
+  align-items: center;
+}
+/* left side */
+.awesome {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.awesome > :nth-child(1) {
+  color: var(--black);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.awesome > :nth-child(2) {
+  color: var(--orange);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.awesome > :nth-child(3) {
+  color: var(--gray);
+  font-size: 14px;
+  margin-top: 1rem;
+}
+.s-button {
+  width: 8rem;
+  height: 2rem;
+  margin-top: 4rem;
+}
+
+/* right side */
+.w-right {
+  transform: scale(0.5);
+  left: -10.5rem;
+  top: 1rem;
+  position: relative;
+}
+
+
+
+@media screen and (max-width: 477px) {
+  .w-right {
+    position: absolute;
+    
+}
+
+}
+
+@media screen and (max-width: 670px){
+  .w-right {
+   top: -1rem;
+   left: -14rem;
+    justify-content:start;
+    transform: scale(0.5);
+}
+}
+@media screen and (max-width: 570px){
+  .w-right {
+   top: -2.3rem;
+   left: -16rem;
+    justify-content:start;
+    transform: scale(0.3);
+}
+}
+
+@media screen and (min-width: 1021px){
+  .w-right {
+   top: -1.3rem;
+   left: -6rem;
+    justify-content:start;
+    transform: scale(0.5);
+}
+}
