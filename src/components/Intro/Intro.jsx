@@ -72,7 +72,7 @@ const Intro = () => {
           className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
+          <FloatinDiv img={thumbup} text1="Good Work Experience in " text2="Web Development" />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
