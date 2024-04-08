@@ -47,6 +47,7 @@
 @media screen and (max-width: 477px) {
   .w-right {
     position: absolute;
+    display : hidden;
     
 }
 
